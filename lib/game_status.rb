@@ -46,5 +46,5 @@ def won?(board)
 end
 
 def full?(board)
-  
+  board_full = board.all?
 end
