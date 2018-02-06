@@ -48,4 +48,5 @@ end
 def full?(board)
    if board_full = board.all?
    else false
+   end
 end
