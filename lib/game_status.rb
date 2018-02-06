@@ -46,6 +46,6 @@ def won?(board)
 end
 
 def full?(board) do |item|
-  board.all? (item == "X" || item = "O")
+  if board.all? (item == "X" || item = "O")
   end
 end
