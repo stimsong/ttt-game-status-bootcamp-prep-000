@@ -46,6 +46,6 @@ def won?(board)
 end
 
 def full?(board)
-  do board.all? (|item| item == "X" || item == "O")
+  board.all? {|item| item == "X" || item == "O"}
   end
 end
