@@ -45,8 +45,8 @@ def won?(board)
   end
 end
 
-def full?(board)
-#  full_board = nil
+def full?(board) do |x|
+
   full_board = board.all?
   if full_board
   else false
